@@ -1,0 +1,29 @@
+{
+  "name": "verdijs-task-clean",
+  "version": "0.0.1",
+  "description": "Clean task that deletes the target directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verdijs/verdijs-task-clean.git"
+  },
+  "keywords": [
+    "verdijs",
+    "task",
+    "clean"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/verdijs/verdijs-task-clean/issues"
+  },
+  "homepage": "https://github.com/verdijs/verdijs-task-clean#readme",
+  "dependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "verdijs-pli": "0.0.0"
+  }
+}
