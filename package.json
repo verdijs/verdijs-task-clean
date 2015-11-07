@@ -1,6 +1,6 @@
 {
   "name": "verdijs-task-clean",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Clean task that deletes the target directory",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,9 @@
   "homepage": "https://github.com/verdijs/verdijs-task-clean#readme",
   "dependencies": {
     "del": "^2.0.2",
-    "gulp": "^3.9.0",
     "verdijs-pli": "0.0.0"
+  },
+  "peerDependencies": {
+    "gulp": "3.x"
   }
 }
